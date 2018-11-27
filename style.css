@@ -25,7 +25,7 @@ div{
 	color:#F2F3F4;
 	text-align:right;
 	padding:25px;
-	opacity:0.8;
+	
 }
 
 #header{
@@ -35,7 +35,7 @@ div{
 	font-size: 35;
 	height:400px;
 	padding-top:130px;
-	opacity:0.8;
+	opacity:0.92;
 	text-align:center;
 	
 }
@@ -54,10 +54,10 @@ div{
 	opacity:0.7;
 	height:auto;
 	text-align: center;
-	padding-top: 0px;
 	min-height:400px;
 	min-height:400px;
-	padding-top:100px;
+	padding:75px 50px;
+
 	width:30%;
 }
 
