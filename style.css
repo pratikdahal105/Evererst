@@ -1,67 +1,77 @@
-body{
-	font-family:arial;
+body{	
 	background-image:url("aero2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	font-family:arial;
 	margin:0px auto auto;
+}
+
+
+div{
+ -webkit-box-sizing: border-box; 
+ -moz-box-sizing: border-box;    
+ box-sizing: border-box;      
 }
 
 #container{
 	margin-left:auto;
 	margin-right:auto;
-	width:90%;
-	height:100%;
+	width:1200px;	
 }
 
 #nav{
 	background-color:#34495E;
 	color:#F2F3F4;
 	text-align:right;
-	padding:15px;
+	padding:25px;
 	opacity:0.8;
 }
 
 #header{
-	height:20vw;
 	background-color:#E5E7E9 ;
-	color:#34495E ;
-	opacity:0.8;
-	text-align:center;
-	padding-top:10vw;
+	color:#34495E;
 	font-family:Papyrus;
 	font-size: 35;
+	height:400px;
+	padding-top:130px;
+	opacity:0.8;
+	text-align:center;
+	
 }
+#cont1,#cont1a,#cont1b{
+	display:block;
+}
+
 
 #cont1{
-	height:300px;
+	height:400px;
 }
 
-
 #cont1a{
-	display: inline;
 	float:left;
-	background-color: grey;
+	background-color:#F4F6F7;
 	opacity:0.7;
 	height:auto;
 	text-align: center;
-	padding-top:150px;
-	padding-left: 10px;
-	padding-right: 10px;
-	height:300px;
-	width:40%;
+	padding-top: 0px;
+	min-height:400px;
+	min-height:400px;
+	padding-top:100px;
+	width:30%;
 }
 
 #cont1b{
-	background-image: url("parts1.jpg");
-
+	background-image: url("parts2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
-	display:inline;
-	float:right;
-	height:300px;
-	width:50%;
+	background-position: center;	
+	min-height:400px;
+	min-height:400px;
+	width:70%;
+	float:left;
+	margin-bottom:50px;
+
 }
 
 a:link{
