@@ -1,4 +1,4 @@
-body{	
+body{
 	background-image:url("aero2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -9,15 +9,15 @@ body{
 
 
 div{
- -webkit-box-sizing: border-box; 
- -moz-box-sizing: border-box;    
- box-sizing: border-box;      
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 #container{
 	margin-left:auto;
 	margin-right:auto;
-	width:1200px;	
+	width:1200px;
 }
 
 #nav{
@@ -25,7 +25,7 @@ div{
 	color:#F2F3F4;
 	text-align:right;
 	padding:25px;
-	
+
 }
 
 #header{
@@ -37,7 +37,7 @@ div{
 	padding-top:130px;
 	opacity:0.92;
 	text-align:center;
-	
+
 }
 #cont1,#cont1a,#cont1b{
 	display:block;
@@ -58,17 +58,17 @@ div{
 	min-height:400px;
 	padding:75px 50px;
 
-	width:30%;
+	width:40%;
 }
 
 #cont1b{
 	background-image: url("parts2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;	
+	background-position: center;
 	min-height:400px;
 	min-height:400px;
-	width:70%;
+	width:60%;
 	float:left;
 	margin-bottom:50px;
 
@@ -86,4 +86,8 @@ a:visited {
 a:hover{
 	text-decoration:none;
 	color:white;
+}
+p{
+	font-weight: bold;
+	font-size: 16;
 }
