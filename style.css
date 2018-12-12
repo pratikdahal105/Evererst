@@ -1,5 +1,5 @@
 body{	
-	background-image:url("aero2.jpg");
+	background-image:url("img/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -19,7 +19,7 @@ div{
 	margin-left:auto;
 	margin-right:auto;
 	width:1200px;
-	margin-bottom:50px;
+	margin-bottom:30px;
 	
 }
 
@@ -42,9 +42,7 @@ div{
 	text-align:center;
 	
 }
-#cont1,#cont1a,#cont1b{
-	display:block;
-}
+
 
 #subtopic{
 	text-align:center;
@@ -67,7 +65,7 @@ div{
 }
 
 #cont1b{
-	background-image: url("parts2.jpg");
+	background-image:url("img/home.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;	
@@ -121,6 +119,39 @@ img{
 	object-fit:cover;
 }
 
+#team{
+	padding:50px 70px;
+	background-color:rgba(244, 246, 247, .7) ;
+	height:1140px;
+}
+
+#view{
+	width:33%;
+	display:inline-block;
+	padding:0 5%;
+	vertical-align: top;
+	opacity:1;
+}
+
+#picteam{
+	height:230px;
+	width:100px;
+	object-fit:fill;
+	margin-bottom:10px;
+}
+#picteam:hover {
+  opacity: 0.8;
+  
+}
+
+footer{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+
+
+	
 @media screen and (max-width: 1281px) {
 	#container{
 	width:90%;
@@ -129,7 +160,7 @@ img{
 
 @media screen and (max-width: 1024px) {
 	#container{
-		width:100%;
+		width:1200px;
 	}
 }
 
