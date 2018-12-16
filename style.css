@@ -56,6 +56,7 @@ div{
 	min-height:400px;
 	display:flex;
 	vertical-align:middle;
+	clear:left;
 }
 
 #cont1a{
@@ -151,10 +152,60 @@ img{
   
 }
 
-footer{
+#footer{
 	text-align: center;
 	padding-bottom: 30px;
 }
+
+
+#logo{	
+	width:10%;
+	float:left;
+}
+
+#logoimg{
+	object-fit:contain;
+	max-height:100%;
+	margin-top:-50px;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+
+@media (max-width: 1024px) {
+    .topnav a{display: none;}
+	.topnav #logo{display:block;}
+    .topnav a.icon {
+        float: none;
+        display: block;
+        padding:5px;
+        padding-bottom:0px;
+    }
+	
+	
+}
+
+@media (max-width: 1024px) {
+    .topnav.responsive {
+        width:80vw;
+        margin-bottom: 10px;
+    }
+
+    .topnav.responsive .icon {
+        position: relative;
+    }
+
+
+    .topnav.responsive :not(:first-child) {
+        float: none;
+        display: block;
+        text-align: left;
+        }
+
+}
+
 
 	
 @media screen and (max-width: 1281px) {
@@ -182,7 +233,18 @@ footer{
 	 
 	}
 
-
+	
+	#logoimg{
+		object-fit:contain;
+		max-height:20%;
+		margin-top:-40px;
+		margin-left:5px;
+		clear:left;
+	}
+	
+	#nav a{
+		clear:left;
+	}	
 
 	#container{
 		margin-left:auto;
@@ -197,6 +259,7 @@ footer{
 		color:#F2F3F4;
 		text-align:right;
 		padding:15px 10px;
+		
 		
 	}
 
@@ -221,6 +284,7 @@ footer{
 	#cont1{
 		min-height:250px;
 		display:flex;
+		clear:left;
 	}
 
 	#cont1a{
@@ -316,7 +380,7 @@ footer{
 	  
 	}
 
-	footer{
+	#footer{
 		text-align: center;
 		padding-bottom: 10px;
 	}
@@ -340,8 +404,18 @@ footer{
 		 box-sizing: border-box;      
 	 
 	}
-
-
+	
+	#logoimg{
+		object-fit:contain;
+		max-height:20%;
+		margin-top:-26px;
+		margin-left:8px;
+		clear:left;
+	}
+	
+	#nav a{
+		clear:left;
+	}	
 
 	#container{
 		margin-left:auto;
@@ -475,10 +549,12 @@ footer{
 	  
 	}
 
-	footer{
+	#footer{
 		text-align: center;
 		padding-bottom: 10px;
 	}
+	
+	
 	
 	
 
@@ -495,7 +571,6 @@ footer{
 		font-size:6px;
 	}
 
-
 	div{
 		 -webkit-box-sizing: border-box; 
 		 -moz-box-sizing: border-box;    
@@ -503,7 +578,17 @@ footer{
 	 
 	}
 
-
+	#logoimg{
+		object-fit:contain;
+		max-height:20%;
+		margin-top:-19px;
+		margin-left:5px;
+		clear:left;
+	}
+	
+	#nav a{
+		clear:left;
+	}
 
 	#container{
 		margin-left:auto;
@@ -637,7 +722,7 @@ footer{
 	  
 	}
 
-	footer{
+	#footer{
 		text-align: center;
 		padding-bottom: 10px;
 	}
@@ -662,7 +747,17 @@ footer{
 	 
 	}
 
-
+	
+	#logoimg{
+		object-fit:contain;
+		max-height:20%;
+		margin-top:-19px;
+		clear:left;
+	}
+	
+	#nav a{
+		clear:left;
+	}
 
 	#container{
 		margin-left:auto;
@@ -796,7 +891,7 @@ footer{
 	  
 	}
 
-	footer{
+	#footer{
 		text-align: center;
 		padding-bottom: 10px;
 	}

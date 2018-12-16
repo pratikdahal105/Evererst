@@ -1,12 +1,9 @@
-function myFunction() {    
-    var x = document.getElementById("nav");
-    if (x.className === "navclass" ) {
-        x.className += " responsive";
-    } else {
-        x.className = "navclass";
-        //Stops all the animation for the links before hiding hamburger menu.
-        
-        //Slides up all the parent-links before hiding hamburger menu.
-                
-    }   
+function myFunction() {
+  var x = document.getElementById("nav");
+  if (x.className === "topnav") {
+	  document.getElementById("nav").style.width = "100%";
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 }
