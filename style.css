@@ -70,12 +70,7 @@ div{
 }
 
 #cont1b{
-	background-image:url("img/home.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;	
-	width:60%;
-	float:left;
+	
 }
 
 #cont2{
@@ -84,12 +79,7 @@ div{
 }
 
 #cont2a{	
-	background-image:url("img/home.jpg");
-	background-repeat: no-repeat;
-	background-size: fill;
-	background-position: center;	
-	width:60%;
-	float:left;
+
 	
 }
 
@@ -305,12 +295,7 @@ img {
 	}
 
 	#cont2a{	
-		background-image:url("");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;	
-		width:60%;
-		float:left;
+		
 		
 	}
 
@@ -465,13 +450,7 @@ img {
 	}
 
 	#cont1b{
-		background-image:url("img/home.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;	
-		min-height:20px;
-		width:60%;
-		float:left;
+		
 	}
 
 	#cont2{
@@ -480,12 +459,7 @@ img {
 	}
 
 	#cont2a{	
-		background-image:url("img/home.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;	
-		width:60%;
-		float:left;
+		
 		
 	}
 
@@ -642,13 +616,7 @@ img {
 	}
 
 	#cont1b{
-		background-image:url("img/home.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;	
-		min-height:20px;
-		width:60%;
-		float:left;
+		
 	}
 
 	#cont2{
@@ -657,12 +625,7 @@ img {
 	}
 
 	#cont2a{	
-		background-image:url("img/home.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;	
-		width:60%;
-		float:left;
+		
 		
 	}
 
@@ -811,13 +774,7 @@ img {
 	}
 
 	#cont1b{
-		background-image:url("img/home.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;	
-		min-height:20px;
-		width:60%;
-		float:left;
+		
 	}
 
 	#cont2{
@@ -826,12 +783,7 @@ img {
 	}
 
 	#cont2a{	
-		background-image:url("img/home.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;	
-		width:60%;
-		float:left;
+		
 		
 	}
 
