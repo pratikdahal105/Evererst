@@ -119,12 +119,13 @@ a:hover{
 	color:white;
 }
 
-img{
+
+img {
 	min-width:100%; 
 	max-width:100%; 
-	min-height:100%;
-	max-height:100%;
-	object-fit:cover;	
+	min-height:none;
+	max-height:none;
+	object-fit:fill;	
 }
 
 #team{
@@ -297,15 +298,6 @@ img{
 		width:40%;
 	}
 
-	#cont1b{
-		background-image:url("img/home.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;	
-		min-height:20px;
-		width:60%;
-		float:left;
-	}
 
 	#cont2{
 		min-height:100px;
@@ -313,7 +305,7 @@ img{
 	}
 
 	#cont2a{	
-		background-image:url("img/home.jpg");
+		background-image:url("");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;	
@@ -348,13 +340,15 @@ img{
 		color:white;
 	}
 
+	
 	img{
 		min-width:100%; 
 		max-width:100%; 
 		min-height:none;
 		max-height:none;
-		object-fit:cover;
+		object-fit:fill;	
 	}
+
 
 	#team{
 		padding:15px 15px;
@@ -397,8 +391,9 @@ img{
 		font-family:arial;
 		margin:0px auto auto;
 		font-size:10px;
-		 height: 100%;
 	}
+	
+	
 
 
 	div{
@@ -520,12 +515,12 @@ img{
 		color:white;
 	}
 
-	img{
+	img {
 		min-width:100%; 
 		max-width:100%; 
-		min-height:100%;
-		max-height:100%;
-		object-fit:cover;
+		min-height:none;
+		max-height:none;
+		object-fit:fill;	
 	}
 
 	#team{
@@ -697,12 +692,12 @@ img{
 		color:white;
 	}
 
-	img{
+	img {
 		min-width:100%; 
 		max-width:100%; 
-		min-height:100%;
-		max-height:100%;
-		object-fit:cover;
+		min-height:none;
+		max-height:none;
+		object-fit:fill;	
 	}
 
 	#team{
@@ -866,12 +861,12 @@ img{
 		color:white;
 	}
 
-	img{
+	img {
 		min-width:100%; 
 		max-width:100%; 
-		min-height:100%;
-		max-height:100%;
-		object-fit:cover;
+		min-height:none;
+		max-height:none;
+		object-fit:fill;	
 	}
 
 	#team{
